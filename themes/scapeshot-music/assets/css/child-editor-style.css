@@ -1,0 +1,58 @@
+/*
+Theme Name: Scapeshot Music
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+/* Link Hover Color */
+a:hover,
+a:focus,
+.more-link .readmore:hover,
+.more-link .readmore:focus,
+.wp-block-quote:before {
+    color: #ff575d;
+}
+
+
+/* Gradient Button Background Color */
+.button,
+input[type="submit"],
+.view-more .button {
+    background-image: linear-gradient(to right, #ff575d, #ff27a9);
+}
+
+button[type="submit"].search-submit.search-focused {
+    background-color: #ff575d;
+}
+
+/* Button Hover Text Color */
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+.view-more .button:hover,
+.view-more .button:focus {
+    color: #ffffff;
+}
+
+/* Button Hover Background Color */
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.view-more .button:hover,
+.view-more .button:focus {
+    background-image: linear-gradient(to right, #ff27a9, #ff575d);
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    background-color: #ff575d;
+}
+
